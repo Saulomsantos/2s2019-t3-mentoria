@@ -21,10 +21,7 @@ function App() {
           <img src={logo} />
 
           <nav className="cabecalhoPrincipal-nav">
-            <a>Home</a>
-            <a>Eventos</a>
-            <a>Contato</a>
-            <a className="cabecalhoPrincipal-nav-login" href="login.html">
+            <a className="cabecalhoPrincipal-nav-link" href="login">
               Login
             </a>
           </nav>

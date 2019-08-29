@@ -61,10 +61,20 @@ class Categorias extends Component {
     return (
       <div>
         <header className="cabecalhoPrincipal">
-          <div className="container">
-            <img src={logo} />
-          </div>
-        </header>
+        <div className="container">
+          {/* <img src="./assets/img/icon-login.png" /> */}
+          <img src={logo} />
+
+          <nav className="cabecalhoPrincipal-nav">
+          <a className="cabecalhoPrincipal-nav-link" href="/">Home</a>
+            
+            <a className="cabecalhoPrincipal-nav-link" href="eventos">
+              Eventos
+            </a>
+            <a className="cabecalhoPrincipal-nav-link" href="categorias">Categorias</a>
+          </nav>
+        </div>
+      </header>
 
         <main className="conteudoPrincipal">
           <section className="conteudoPrincipal-cadastro">

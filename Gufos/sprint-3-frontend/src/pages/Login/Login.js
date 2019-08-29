@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../../assets/img/icon-login.png";
 
-// import "../../assets/css/login.css";
+import "../../assets/css/login.css";
 import Axios from "axios";
 
 class Login extends React.Component {
